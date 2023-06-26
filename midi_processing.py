@@ -13,7 +13,7 @@ def load_songs(path):
 
     return songs
 
-def preprocess_songs(songs)    
+def preprocess_songs(songs):    
     notes = []
     for i,file in enumerate(songs):
         print(f'{i+1}: {file}')
