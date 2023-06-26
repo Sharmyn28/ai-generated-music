@@ -2,16 +2,16 @@ import glob
 import pickle
 import pandas as pd
 import numpy as np
-from music21 import converter, instrument, note, chord
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.layers import Dropout
-from tensorflow.keras.layers import LSTM
-from tensorflow.keras.layers import Activation
-from tensorflow.keras.layers import BatchNormalization as BatchNorm
+from music21 import converter, instrument, note, chord, stream
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Dropout
+from keras.layers import LSTM
+from keras.layers import Activation
+from keras.layers import BatchNormalization as BatchNorm
 from keras.utils import np_utils
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras import optimizers
+from keras.callbacks import ModelCheckpoint
+from keras import optimizers
 import tensorflow as tf
 
 
